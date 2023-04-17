@@ -1,9 +1,9 @@
 {
-  "homepage": "https://Ayoubaitihia12.github.io/cyborg-using-react",
   "name": "cyborg",
   "version": "0.1.0",
   "private": true,
-  "dependencies":{
+  "dependencies": {
+    "homepage" : "http://Ayoubaitihia12.github.io/cyborg-using-react",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -17,10 +17,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
